@@ -2,6 +2,8 @@
 
 ![template landing page](https://github.com/idme/landing-page-template/blob/master/template.png?raw=true "Template Landing Page")
 
+## To get started, fork and clone this repo. Then use the following directions to make any desired alterations. Alternatively, you can copy and paste the index.html and style.css file contents into your own project code. 
+
 ### Altering the hero image
 
 * Change image: Navigate to `line 2` in `style.css` and alter the image url to your desired image
