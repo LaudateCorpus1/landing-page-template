@@ -1,0 +1,148 @@
+.hero-container {
+    background-image: url("https://ak.picdn.net/shutterstock/videos/28899901/thumb/10.jpg");
+    background-size: cover;
+    width: 80%;
+    margin: 2% auto 0;
+    text-align: left;
+    padding-left: 13%;
+    padding-top: 10%;
+    padding-bottom: 8%;
+  }
+  
+  .image-text {
+    color: white;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 500px;
+    font-weight: 500;   
+  }
+  
+  .idme-button {
+    width: 15%;
+    font-size: 1.25vw;
+    text-align: center;
+    margin: 1% 0;
+  }
+  
+  .directions-title-container {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+    margin-top: 30px;
+    font-size: 2.0vw;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: green;
+  }
+  
+  .directions-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: 100px;
+   }
+    
+  /* .vertical-line {
+      border-left: 1px solid black;
+      height: 250px;
+    } */
+  
+    .direction {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(255, 255, 255, .15);
+      backdrop-filter: blur(5px);
+      border-radius: 25px;
+      margin-right: 25px;
+    }
+    
+    .direction-step {
+      color: green;
+      font-size: 40px;
+    }
+    
+    .p-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 275px;
+      max-height: 103px;
+    }
+    
+    .p {
+      font-size: 18.72px;
+      font-family: ;
+      color: ;
+      text-align: center;
+    }
+  
+    .faq-title {
+      text-align: center;  
+      color: green;
+      font-family: "Open Sans", Helvetica, sans-serif;
+      font-size: 2.0vw;
+    }
+  
+    .faq-items {
+        text-align: center;
+        margin-bottom: 50px;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        width: 70%;
+        margin: auto
+    }
+  
+    li{
+      margin: 10px 0;
+    }
+
+    .faq-answers {
+        font-size: 18.72px;
+        font-family: ;
+        color: ;
+      }
+    
+  
+  @media only screen and (max-width: 500px) {
+    .hero-container {
+      padding-left: 6%;
+      width: 85%;
+    }
+    .image-text {
+      font-size: 2.7vw;
+    }
+    
+    .direction-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .direction {
+      font-size: 10px;
+    }
+    .greenhouse-bold {
+      font-size: 13px;
+    }
+    .title-gren-hous {
+      font-size: 11px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1024px) {
+    .image-text {
+      font-size: 29px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+      .vertical-line {
+        height: 75px;
+      }
+    }
+  
+    @media screen and (max-width: 500px) {
+      .direction-title {
+        font-size: 6px;
+      }
+      .p {
+        font-size: 6px;
+      }
+    }
